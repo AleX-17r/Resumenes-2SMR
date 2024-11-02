@@ -1,3 +1,4 @@
+## Empresa T2
 Los objetivos de las empresas deben ser medibles y controlables.
 
 Existen diferentes formas de determinar los objetivos (una empresa puede cambiarlos, cada empresa tiene unos, pueden entrar en conflicto).

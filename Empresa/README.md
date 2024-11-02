@@ -105,4 +105,30 @@ La forma de evitarlo es diferenciándote de estos.
 ---
 ### Análisis DAFO
 
-una sencilla herramienta de análisis estratégico
+una sencilla herramienta de análisis estratégico.
+ - Debilidades: limitan, son características internas
+ - Amenazas: impiden o ponen en peligro el desarrollo de tu empresa, son externos
+ - Oportunidades: favorecen el desarrollo, son externos
+ - Fortalezas: reccursos internos que ayudan.
+---
+
+### Factores de análisis interno:
+ - Producción: costes de producción, capacidad, etc.
+ - Recursos Humanos y Organización: formación y productivdad del personal
+ - Finanzas y Patrimonio: ratios financieros y bienes tangibles. 
+ - Marketing y Distribución: Posicionamiento de productos y servicios dentro del mercado
+### Factores de análisis externo:
+ - Mercado y Clientela: público al que se destinan productos o sevicios.
+ - Sector y competencia: Tendencias y características dentro del sector, Productos que destacan.
+ - Entorno: factores económicos, sociales, políticos, geográficos, tecnológicos o ambientales que afecten a tu negocio.
+
+---
+
+### Matriz CAME
+Se trata de corregir las debilidades, afrontar las amenazas, mantener las fortalezas y explotar las oportunidades.
+
+---
+
+La diferencia entre misión y visión es que la primera se enfoca en el presente y es inmediata, siendo el vehículo para alcanzar la visión, que se traza a largo plazo y representa la imagen ideal a alcanzar por la organización.
+
+Los valores organizacionales son los cimientos sobre los cuales se rige el comportamiento de los empleados de una organización

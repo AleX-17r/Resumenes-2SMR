@@ -52,10 +52,36 @@ La idea debe proporcionar un "valor agreagado", para así atraer al cliente.
 - Creatividad: pensar ideas nuevas
 - Innovación: aplicación de las ideas (proceso e implementación)
 
-Se puede innovar **creando un nuevo producto o servicio**, **también cambiando una característica** con la que los clientes lo perciban novedoso.
+Se puede innovar **Creando un Nuevo producto o servicio**, **también Cambiando una Característica** con la que los clientes lo perciban novedoso.
 
-Otro tipo de innovación, es el **proceso**, esta hace referencia a cómo se lleva a cabo ese producto o servicio.
+Otro tipo de innovación, es en el **Proceso**, esta hace referencia a **cómo** se lleva a cabo ese producto o servicio.
 
 También se puede innovar en el **marketing**.
 
-Organización de la empresa, esta consiste en el desarrollo de nuevos métodos de organización del trabajo.
+**Organización** de la empresa, esta en el desarrollo de nuevos métodos de organización del trabajo.
+
+---
+### Generación de Ideas de Negocio
+Una idea surge por la detección de una oportunidad de negocio (solucionar un problema).
+
+La opción ideal es ofrecer algo novedoso.
+
+Su aparición puede variar según circunstancias de personas.
+
+----
+Un prototipo es una representación real del bien o servicio que vamos a ofrecer.
+
+Debe ser rápido, que el cliente vea su evolución.
+
+---
+### Modelo de Negocio
+Es la manera en que genera beneficios a través del valor  y satisfacción de sus clientes.
+
+Define qué vas a ofrecer, qué valor aporta, a quién va dirigido, cómo lo vas a vender y cómo generar más ingresos.
+
+Responde a los clientes potenciales sobre como resolver sus necesidades.
+
+Escalable y repetible, que las ventas crezcan a un ritmo mayor que los costes una vez hecha la inversión.
+
+La publicidad no debe ser de más del 30% de la facturación.
+

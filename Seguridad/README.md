@@ -120,14 +120,14 @@ Conceptos:
  - Autonomía: tiempo que puede suministrar energía a una carga
  - Capacidad: potencia máxima que suministrar a la carga
 El SAI está compuesto por:
- - Batería
- - Bloque bypass: conmuta entre energía eléctrica que ofrece el SAI y la red.
- - Bloque rectificador: asegura que el SAI pueda mantener las baterías cargadas y proveer energía constante y limpia.
- - Bloque inversor/ondulador: convierte entre contínua y alterna.
+ - **Batería**
+ - Bloque **bypass**: conmuta entre energía eléctrica que ofrece el SAI y la red.
+ - Bloque **rectificador**: asegura que el SAI pueda mantener las baterías cargadas y proveer energía constante y limpia.
+ - Bloque **inversor**/**ondulador**: convierte entre contínua y alterna.
  - Filtro: elimina perturbaciones de la red
  - Panel de control, informa sobre el estado del SAI
- - Pulsador de emergencia: permite la desonexión total e inmediata.
- - Software de control y comunicación
+ - **Pulsador** de emergencia: permite la desonexión total e inmediata.
+ - **Software** de control y comunicación
 Los diferentes tipos son:
  - Estático:  conmuta entre energía de la red y de la batería.
  - Mecánico o Rotativo: tiene motor (combustión o corriente continua).
@@ -162,5 +162,31 @@ Calcular Potencia a partir de Intensidad y Voltage
 
 ### Dispositivos de Almacenamiento
 Pueden ser
- - Dispositivos locales 
- - (Continuar página 51)
+ - Dispositivos Locales (normalmente discos duros) 
+ - Dispositivos Externos (DVD, Pendrive)
+ - Servidores de almacenamiento en red
+ - Almacenamiento en la nube
+Servicios de almacenamiento en la nube:
+Existen empresas que ofrecer servicios de alojamiento remoto; pueden ser gratuitos o de pago, puede ser Cloud público o privado.
+
+En el caso de las redes privadas, podemos tener en cuenta Cloud Computing, esto nos permite acceder a los recursos tecnológicos que necesitemos desde internet. (AWS)
+
+Otro sistema de almacenamiento en red, es un NAS (Network Attached Storage), estos son como discos duros en red
+
+También tenemos SAN (Storage Area Network), son redes de alta velocidad que comunican servidores en diferentes sedes de la empresa.
+
+DAS, NO pasa por la red, simplemente se conecta a los equipos por USB o SATA (es offline).
+
+En el almacenamiento en red, podemos guardar la información en:
+- Bloques: fragmentos o páginas
+- Bibliotecario: servidor que reúne las páginas
+- Flexibilidad: el bibliotecario tiene total control.
+
+---
+Los clústeres son conjuntos d eservidores interconectados para trabajar en conjunto, pueden ser homogéneos (mismo hardware y software) o heterogéneos (diferentes)
+ El uso de Clústeres nos aporta:
+  - Alta Disponibilidad
+  - Alta Confiabilidad
+  - Alto Rendimiento
+En el caso de Cloud Data Center, son servicios en la nube que nos ofrecen empresas agenas a la nuestra, aquí podemos almacenar nuestra información online, sin necesidad de tener un servidor físico.
+

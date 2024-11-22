@@ -2,6 +2,6 @@ Esto no es un proyecto como tal, simplemente, aquí publico algnos de mis resúm
 
 Página principal: https://alex-17r.github.io/Resumenes-2SMR/
 
-Horario de SMR-K: https://alex-17r.github.io/Horario/
+Horario de 2 SMR-K: https://alex-17r.github.io/Horario/
 
 Próximos exámenes: https://alex-17r.github.io/Resumenes-2SMR/examenes.html

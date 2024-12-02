@@ -1,15 +1,15 @@
 **Copia completa**: contiene todos los archivos
- - + Tamaño
- - + Fácil de recuperar
- - - Velocidad (creación)
+ - +Tamaño
+ - +Fácil de recuperar
+ - -Velocidad (creación)
 
 **Copia diferencial**: contiene archivos creados o actualizados desde la última **completa** 
  - Intermedio
 
 **Copia integral**: contiene los archivos modificados desde última copia. 
- - - Tamaño
- - - Fácil de recuperar
- - + Velocidad (creación)
+ - -Tamaño
+ - -Fácil de recuperar
+ - +Velocidad (creación)
 
 
 ---

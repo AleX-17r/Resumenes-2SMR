@@ -17,6 +17,7 @@ Dentro de los tipos de Copias podemos diferenciar:
   - +Velocidad (creación)
 
 **Operatividad del sistema**:
+
  **Copias en frío**: 
   - se hacen sobre archivos o bases de datos sin accesos
  

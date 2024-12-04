@@ -16,6 +16,19 @@ Dentro de los tipos de Copias podemos diferenciar:
   - -Fácil de recuperar
   - +Velocidad (creación)
 
+**Operatividad del sistema**:
+ **Copias en frío**: 
+  - se hacen sobre archivos o bases de datos sin accesos
+ 
+ **Copias en caliente**: 
+  - El acceso a datos no se detiene, se realiza sobre archivos y bases de datos en uso.
+
+
+
+
+
+
+
 ---
 **Director de Seguridad**
  - Marca las prioridades, los responsables y los recursos.
@@ -36,3 +49,18 @@ Distinguir entre:
   - Sistemas complejos (Bases de datos)
  Frecuencia de soporte
   - Cada cuanto podemos hacerla (diaria, semanal,...)
+
+---
+
+
+---
+
+Debemos identificar los datos a salvar (datos relevantes); 
+La frecuencia en la que haremos las copias
+Los archivos o sistemas complejos (bases de datos)
+
+Images de disco: copia completa de TODO
+
+Al crear una copia mantienes la integridad y la disponibilidad, en el caso de cifrarla, también entraría la confidencialidad
+
+Copias de seguridad por sí mismas **NO** ofrecen confidencialidad, para ello hay que cifrarlas. Es un **peligro** si no se protegen.

@@ -3,6 +3,7 @@ Las copias de seguridad permiten la integridad y disponibilidad del sistema oper
 ---
 Dentro de los tipos de Copias podemos diferenciar:
 **Granularidad**:
+
  **Copia completa**: contiene todos los archivos
   - +Tamaño
   - +Fácil de recuperar
@@ -17,6 +18,7 @@ Dentro de los tipos de Copias podemos diferenciar:
   - +Velocidad (creación)
 
 **Operatividad del sistema**:
+
  **Copias en frío**: 
   - se hacen sobre archivos o bases de datos sin accesos
  **Copias en caliente**: 
@@ -33,6 +35,7 @@ Dentro de los tipos de Copias podemos diferenciar:
 
 ---
 #### Pasos a Seguir
+
 Distinguir entre: 
  - Copia de seguridad de **Datos**: Copia los datos
  - Imagen de **Sistema**: Contiene el sistema operativo completo, con todos sus datos.
@@ -44,6 +47,7 @@ Distinguir entre:
 
 ---
 Diferencias entre tipos de información:
+
 **Confidencial**: 
  - Sensible o personal
  - Acceso restringido
@@ -84,7 +88,9 @@ En caso de perder datos y no tener ninguna copia de respaldo, se puede acudir a 
 
 ---
 #### Imagen de Sistema
+
 Consiste en copia exacta de todo (OS, Aplicaciones, Archivos, ...)
+
 Existen de diferentes tipos:
  - Disco a Disco: copia de un disco a otro
  - Partición a Partición: COpiar de una partición a otra (en el mismo disco o en otro)
@@ -92,6 +98,7 @@ Existen de diferentes tipos:
 
 ---
 #### Poíticas de Copias de Seguridad
+
 Definen el tipo de copias, periodicidad, soportes, y ubicaciones de centros de soporte.
 
 **Centros de soporte**:son ubicaciones en las que se guardan las copias de seguridad, al crearse deben etiquetarse con:
@@ -103,24 +110,35 @@ Definen el tipo de copias, periodicidad, soportes, y ubicaciones de centros de s
  - Lugar: Ubicación física donde se encuentra
 
 #### Recuperación:
+
 **RTO: Recovery Time Objective**
+
   Es el tiempo máximo en que recuperar el servicio después de su caída.
   Se estima por el personal técnico.
+  
 **RPO: Recovery Point Objective**
+
   Determina el periodo máximo en el que se puede asumir una pérdida de datos, es decir, se tendrán que hacer las copias cada menos. Si se pasa este tiempo, podemos asumir que los datos están desactualizados.
+  
 **MTD: Maximum Tolerable Downtime**
+
   Determina el tiempo máximo de caída del servidor que podemos permitirnos
+  
 **ROL: Revised Operating Level**
+
   Nivel mínimo que debemos recueperar, aunque no sea el óptimo
 
 #### Borrado de datos
+
   Cuando se deben retiran los soportes que han sido utilizados para realizar copias de seguridad, se deben destruir de forma segura.
   Es muy importante asegurarse de que esa información no vuelva a ser accesible para evitar accesos maliciosos
   Se debe subcontratar una empresa de destrucción certificada. (datos sensibles o personales)
 
    Para cintas o DVDs, lo mejor es triturarlos,
    Para Discos Duros o Pendrives, sobreescribir
+   
 #### Período de conservación de las copias
+
   Varía dependiendo de las necesidades de cada organización y sus requisitos legales.
   Debemos tener en cuenta:
    - La información es de utilidad? si no lo es se puede borrar, teniendo en cuenta el tiempo de mantenerlo por ley
@@ -128,4 +146,5 @@ Definen el tipo de copias, periodicidad, soportes, y ubicaciones de centros de s
    - Conservar diversas copias anteriores a la última realizada
    - ---
 #### Cifrado
+
 Debemos tener en cuenta que las copias de seguridad nos permiten integridad y disponibilidad, para tener también la confidencialidad, deberemos cifrar estas, así nos aseguraremos de que no las consigan usuarios ajenos.

@@ -2,6 +2,7 @@ Las copias de seguridad permiten la integridad y disponibilidad del sistema oper
 
 ---
 Dentro de los tipos de Copias podemos diferenciar:
+
 **Granularidad**:
 
  **Copia completa**: contiene todos los archivos

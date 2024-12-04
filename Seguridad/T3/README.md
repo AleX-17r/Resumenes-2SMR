@@ -19,6 +19,7 @@ Dentro de los tipos de Copias podemos diferenciar:
 ---
 **Director de Seguridad**
  - Marca las prioridades, los responsables y los recursos.
+
 **Plan de Contingencia**: para responder lo más rápido y eficaz posible.
  - Define la información a incluir en las copias
  - El tipo de soporte (Discos duros)

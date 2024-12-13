@@ -14,8 +14,14 @@ Desde que existe, se han emplementado mejoras como el modo pasivo (1994) o exten
 #### Funcionamiento
 Puede funcionar en modo activo o modo pasivo, esto determinará como establecer la conexión de datos.
 
-En el modo activo
+**En el modo activo**
  - El cliente inicia la **conexión** al servidor 
- - El cliente envía un comando de conexión al servidor, si la conexión se ha establecido, este se lo indicará.
- - El cliente indica que desea una conexión de **datos**, le indica un puerto y dirección IP.
+ - Si la conexión se ha establecido, el servidor lo indicará.
+ - El cliente indica que desea una conexión de **datos**, le indica un puerto y dirección IP. (comando PORT)
  - El servidor se conecta al cliente y establece la conexión de datos.
+
+**En el modo pasivo**
+ - El cliente inicia la conexión al servidor 
+ - El servidor indica si se ha establecido la conexión
+ - El cliente solicita una conexión de datos pasiva, (PASV)
+ - El servidor abre un puerto aleatorio y se lo indica al cliente.

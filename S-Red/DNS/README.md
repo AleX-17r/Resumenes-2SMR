@@ -19,7 +19,7 @@ TTL: Tiempo de vida, cuando acaba, expira
 Cuando los servidores secundarios quieren copiar el principal, preguntan qué número de serie tiene (versión). Cada vez que se actualiza el primario se debe cambiar su número de serie, para que los secundarios se enteren de que deben actualizarse
 
 ---
-​￼**Zona**: espacio en el que tiene autoridad servidor, contiene todos los subdominios. (estructura árbol)
+​**Zona**: espacio en el que tiene autoridad servidor, contiene todos los subdominios. (estructura árbol)
  - Puedes delegar un subdominio a un tercero
 **Registro Glue**: Conoce otras zonas independientes.
 

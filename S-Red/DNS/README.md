@@ -61,7 +61,7 @@ Un mismo recurso **NO** puede estar en 2 zonas diferentes (Son **Disjuntos**, **
  - Resuleve de una dirección IP a un nombre de recurso.
 
 
-
+---
 		
 		
 			Dominio.com.

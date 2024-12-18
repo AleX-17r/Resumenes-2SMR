@@ -7,7 +7,7 @@ Interred -> IP
 Enlace/Física -> MAC
 
 
-​￼### Hosts
+​### Hosts
 IP - Nombre Host
 IP - Nombre Host
 ... - ...

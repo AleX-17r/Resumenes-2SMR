@@ -25,20 +25,33 @@ Cuando los servidores secundarios quieren copiar el principal, preguntan qué n�
 
 Un mismo recurso **NO** puede estar en 2 zonas diferentes (Son **Disjuntos**, **NO se solapan**).
 
-​￼**Registros Tipo A**: 
-  - Traducen entre nombres (dominios) a direcciones (IP).
+**Registros Tipo A**: 
+  - Traducen entre nombres de recurso de dominio a direcciones (IP).
   - Si un registro está duplicado (mismo dominio 2 IPs), seleccionará una de las IPs, útil para repartir tareas entre más de un servidor.
-​￼**Registros Tipo AAAA**:
+**Registros Tipo AAAA**:
  - Igual que tipo A, pero en IPv6.
-​￼**Registro MX**:
+**Registro MX**:
  - Da el nombre del servidor de correo de un dominio (o subdominio)
  - Contiene una prioridad, siendo el menor número el de mayor prioridad.
  - Sólo resuelve nombres, **NO** puede resolver con alias.
-​￼**Tipo CNAME**: 
+**Tipo CNAME**: 
  - Pasa de un alias a una búsqueda de nombre
  - Resuelve igual que el dominio al que está asociado, es decir, si cambia la dirección de un tipo A al que está asociado, también en este.
-​￼**Tpo NS**:
- ​￼- 
+**Tipo NS**:
+ - Servidores DNS.
+**Tipo SOA**:
+ - Contiene información importante del dominio, la consultan otros servidores.
+ - Es principalmente para comunicarse con secundarios.
+ - Se puede poner en una línea, o ir a la siguiente indicándolo con "("
+ - En el email, el primer . es un @
+ - Contiene número de serie
+**Tipo TXT**:
+ - Puedes escribir cualquier texto
+ - Se utiliza para demostrar que tienes el control, es decir, si una empresa te pide que se lo demuestres, le puedes escribir un texto.
+ - -all = todo lo que esté antes lo rechaza; +all = lo acepta; ~all = lo pone en duda
+ - spf: permite declarar otros dominios que hablen en tu nombre (enviar emails).
+**Tipo PTR**
+ - Resuleve de una dirección IP a un nombre de recurso.
 
 
 
@@ -56,4 +69,13 @@ dominio.com            NS        ns1.dominio.com.
 dominio.com            NS        ns2.dominio.com.
 ns1.dominio.com         A        IP
 ns2.dominio.com        A        IP
+dominio.com             SOA     ns.dominio.com.     admin.dominio.com. (
+1 ; número de serie
+3600 ; intervalo de refresco (en segundos). refresh
+600 ; retry. el secudario itentará reintentar configurarse
+36000 ; expira. el secudario se desconfigura
+600 ; TTL negativo. el tiempo que puede cachear respuestas negativas
+)
+30.28.8.2.in-addr.arpa. PTR www.dominio.com.
+
 

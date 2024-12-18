@@ -62,27 +62,27 @@ Un mismo recurso **NO** puede estar en 2 zonas diferentes (Son **Disjuntos**, **
 
 
 
-
-
-	Dominio.com.
-www.dominio.com.     A      7.12.3.191
-ws.dominio.com.         A      8.13.5.14
-dominio.com.               A      7.12.3.191
-web.dominio.com. CNAME www.dominio.com. (Resolverá el dominio)
-dominio.com.           MX  10 mail.dominio.com.
-dominio.com.           MX  15 mail3.dominio.com.
-dominio.com.           MX  10 mail2.dominio.com.
-dominio.com            NS        ns1.dominio.com.
-dominio.com            NS        ns2.dominio.com.
-ns1.dominio.com         A        IP
-ns2.dominio.com        A        IP
-dominio.com             SOA     ns.dominio.com.     admin.dominio.com. (
-1 ; número de serie
-3600 ; intervalo de refresco (en segundos). refresh
-600 ; retry. el secudario itentará reintentar configurarse
-36000 ; expira. el secudario se desconfigura
-600 ; TTL negativo. el tiempo que puede cachear respuestas negativas
-)
-30.28.8.2.in-addr.arpa. PTR www.dominio.com.
+		
+		
+			Dominio.com.
+		www.dominio.com.     A      7.12.3.191
+		ws.dominio.com.         A      8.13.5.14
+		dominio.com.               A      7.12.3.191
+		web.dominio.com. CNAME www.dominio.com. (Resolverá el dominio)
+		dominio.com.           MX  10 mail.dominio.com.
+		dominio.com.           MX  15 mail3.dominio.com.
+		dominio.com.           MX  10 mail2.dominio.com.
+		dominio.com            NS        ns1.dominio.com.
+		dominio.com            NS        ns2.dominio.com.
+		ns1.dominio.com         A        IP
+		ns2.dominio.com        A        IP
+		dominio.com             SOA     ns.dominio.com.     admin.dominio.com. (
+		1 ; número de serie
+		3600 ; intervalo de refresco (en segundos). refresh
+		600 ; retry. el secudario itentará reintentar configurarse
+		36000 ; expira. el secudario se desconfigura
+		600 ; TTL negativo. el tiempo que puede cachear respuestas negativas
+		)
+		30.28.8.2.in-addr.arpa. PTR www.dominio.com.
 
 

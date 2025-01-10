@@ -74,3 +74,4 @@ Dado que FTP por defecto **no** es seguro, surgieron diferentes versiones en las
  - **x2z**: Responde al control de conexiones de datos.
  - **x3z**: Autenticación del proceso de inicio de sesión.
  - **x5z**: Estado del servidor FTP en la transferencia de archivos.
+

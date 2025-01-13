@@ -1,5 +1,8 @@
+
+---
 ### Financiación:
- **Propia**
+Ahorros o aportaciones con las que se construye el capital de una empresa. Estas peuden ser propias o ajenas:
+ #### Propia
  - Ahorros
  - Aportaciones de socios
  - Beneficios: Repartir, Reservas (guardar para empresa), Reinvertir.

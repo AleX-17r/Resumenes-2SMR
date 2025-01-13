@@ -1,5 +1,3 @@
-
----
 ### Financiación:
 Ahorros o aportaciones con las que se construye el capital de una empresa. Estas peuden ser propias o ajenas:
 #### Propia
@@ -10,7 +8,6 @@ Ahorros o aportaciones con las que se construye el capital de una empresa. Estas
 #### Ajena
 
 **Póliza de crédito**: similar a targeta de crédito, devuelves lo que has gastado + intereses.
-
 **Préstamo**: el banco te da dinero que devuelves con intereses en cuotas.
 
 **Descubierto bancario**: en caso de número rojos te presta con intereses.
@@ -19,8 +16,4 @@ Ahorros o aportaciones con las que se construye el capital de una empresa. Estas
 
 ~~**Descuento comercial**: letras de cambio para adelantar pago~~
 ==**Factory**==: llevas facturas aplazadas, te adelantan dinero (menos comisión), si no se devuelve, la cobra
-==**Leashing**==: conseguir bien sin hacer toda la inversión; te lo dejan a cambio de algo (pagas mantenimiento); lo pagas y te lo quedas
-==**Renting**==: conseguir bien sin hacer toda la inversión; te lo dejan a cambio de alquiler (el banco paga el mantenimiento)
-~~**SGR**: empresa que te avalan~~ 
-- **FFF**: nos dejan dinero para ser socios o como préstamo.
-- **Incubadora**: te dan lo necesario para que la empresa pueda empezar (sitio, pers
+==**Leashing**==: conseguir bien sin hace

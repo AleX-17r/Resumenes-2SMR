@@ -7,6 +7,7 @@ Ahorros o aportaciones con las que se construye el capital de una empresa. Estas
  - Aportaciones de socios
  - Beneficios: Repartir, Reservas (guardar para empresa), Reinvertir.
  - Amortización (ahorrar para en caso de necesitar)
+
  **Ajena**
 - **Póliza de crédito**: similar a targeta de crédito, devuelves lo que has gastado + intereses.
 - **Préstamo**: el banco te da dinero que devuelves con intereses en cuotas.

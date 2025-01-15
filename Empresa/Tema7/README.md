@@ -1,3 +1,5 @@
+## Resumen 7
+---
 ### Financiación:
 Ahorros o aportaciones con las que se construye el capital de una empresa. Estas peuden ser propias o ajenas:
 #### Propia
@@ -6,7 +8,6 @@ Ahorros o aportaciones con las que se construye el capital de una empresa. Estas
  - Beneficios: Repartir, Reservas (guardar para empresa), Reinvertir.
  - Amortización (ahorrar para en caso de necesitar)
 #### Ajena
-
 **Póliza de crédito**: similar a targeta de crédito, devuelves lo que has gastado + intereses.
 
 **Préstamo**: el banco te da dinero que devuelves con intereses en cuotas.
@@ -17,7 +18,7 @@ Ahorros o aportaciones con las que se construye el capital de una empresa. Estas
 
 ~~**Descuento comercial**: letras de cambio para adelantar pago~~
 
-==**Factory**==: llevas facturas aplazadas, te adelantan dinero (menos comisión), si no se devuelve, la cobra
+==**Factoring**==: llevas facturas aplazadas, te adelantan dinero (menos comisión), si no se devuelve, la cobra
 
 ==**Leashing**==: conseguir bien sin hacer toda la inversión; te lo dejan a cambio de algo (pagas mantenimiento); lo pagas y te lo quedas
 
@@ -31,11 +32,12 @@ Ahorros o aportaciones con las que se construye el capital de una empresa. Estas
 
 **Aceleradora**: mentores, te ayudan a mejorar
 
-**Crowd Funding**: un montón de gente que te puede dar dinero (se ponen de acuerdo para apoyar a alguien; hay diferentes tipos:
+**==Crowd Funding==**: un montón de gente que te puede dar dinero (se ponen de acuerdo para apoyar a alguien; hay diferentes tipos:
 -  Donaciones (no esperan nada a cambio)
 - ==Recompensas== (esperan algo a cambio, puede ser poster)
 - ==Acciones==
 - ==Préstamo==
+- Royalty (derechos de autor)
 
 **Bartering**: intercambian productos o servicios entre empresas 
 
@@ -43,8 +45,24 @@ Ahorros o aportaciones con las que se construye el capital de una empresa. Estas
 
 **Venture Capital**: como Bussiness Angel, pero es una empresa.
 
+---
+### Subvenciones:
+Ayuda pública del estado a un determinado número de empresas con ciertos requisitos.
+Tipos de Subvenciones:
 
-
+ **Pago único por desempleo**: Puede sacar el dinero que le quitan de su nómina (se guarda por si lo necesita en este caso).
+ 
+ **Ayuda a las mujeres emprendedoras**: intenta que más mujeres creen sus empresas.
+ 
+ **Empresas en base tecnológica**: Para que las empresas se digitalicen o se creen innovadoras (reciclage, inclusión, nueva y cubra necesidad).
+ 
+ **Jóvenes emprendedores**: intenta que más gente joven emprenda.
+ 
+ **Autonómicas**: para empresas en su misma comunidad autonómica.
+ 
+ 
+ 
+ 
 
 ---
 ==Importantes==           (probable que entren en examen)

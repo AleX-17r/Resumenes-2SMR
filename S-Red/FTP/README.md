@@ -84,7 +84,6 @@ Binbows: IIS, filezilla server, serv-u
 
 
 ---
-### XD
 **En Pasivo**:
  Se puede comprobar si el puerto de datos proviene de la misma conexión que control (IP Tables).
 
@@ -92,18 +91,32 @@ Binbows: IIS, filezilla server, serv-u
 
 ---
 **Comandos**
+
 mkd dir3 -> crea directorio en servidor
+
 !mkd dir3 -> crea directorio en cliente
+
 cd -> cambia de directorio servidor
+
 lcd -> cambia directorio **LOCAL**
+
 (Para ejecutar comando en cliente se añade " ! ", en el caso de " cd ", se hace " lcd ")
+
+
 get -> trae un archivo (serv -> client)
+
 put -> envía archivo (client -> serv)
+
 mget/mput (si son más archivos)
+
 mkd
+
 rmd
+
 dele
+
 asc
+
 bin
 
 ---

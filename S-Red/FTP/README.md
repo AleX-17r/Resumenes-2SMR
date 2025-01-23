@@ -58,7 +58,7 @@ Siempre necesita 2 puertos, uno para enviar y otro para recibir.
 Dado que FTP por defecto **no** es seguro, surgieron diferentes versiones en las que se intentaba hacer más seguro, algunas de ellas son:
  - **FTP a través de SSH**: Crea un tunel FTP normal, pero a través de una conexión SSH.
  - **FTPS**: Es una extensión que cifra las conexiones mediante comunicaciones SSL o TLS, usa el comando "AUTH TLS", (Transport Layer Security; Secure Sockets Layer).
- - **SSH FTP**: Está diseñado específicamente para la transferencia de archivos, los envía a através de SSH.
+ - **SFTP**: Está diseñado específicamente para la transferencia de archivos, los envía a através de SSH.
  
  También para entornos en los que importa más la velocidad, se creó,
   - **TFTP**: Envía en UDP, lo que permite una transferencia rápida.
@@ -75,3 +75,38 @@ Dado que FTP por defecto **no** es seguro, surgieron diferentes versiones en las
  - **x3z**: Autenticación del proceso de inicio de sesión.
  - **x5z**: Estado del servidor FTP en la transferencia de archivos.
 
+**Software**
+Linux: vsftpd, ==proftpd==, pure-ftpd, wu-ftpd
+Binbows: IIS, filezilla server, serv-u
+
+
+
+
+
+---
+### XD
+**En Pasivo**:
+ Se puede comprobar si el puerto de datos proviene de la misma conexión que control (IP Tables).
+
+ Es mejor que dejar todos los puertos abiertos
+
+---
+**Comandos**
+mkd dir3 -> crea directorio en servidor
+!mkd dir3 -> crea directorio en cliente
+cd -> cambia de directorio servidor
+lcd -> cambia directorio **LOCAL**
+(Para ejecutar comando en cliente se añade " ! ", en el caso de " cd ", se hace " lcd ")
+get -> trae un archivo (serv -> client)
+put -> envía archivo (client -> serv)
+mget/mput (si son más archivos)
+mkd
+rmd
+dele
+asc
+bin
+
+---
+FTPS:
+ - Explícito FTPES: se conecta,  indica al cliente que use SSL, si el cliente no es capaz, transmite sin SSL.
+ - Implícito FTPS: si el cliente no soporta SSL, se acaba , escucha por TCP 990. (Está claro que es cifrado, debe saberse, si el cliente no es capaz usar cifrado, se desconecta).

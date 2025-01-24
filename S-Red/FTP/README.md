@@ -64,6 +64,21 @@ Dado que FTP por defecto **no** es seguro, surgieron diferentes versiones en las
   - **TFTP**: Envía en UDP, lo que permite una transferencia rápida.
 
 **Comandos**
+- mkd dir3 -> crea directorio en servidor
+- !mkd dir3 -> crea directorio en cliente
+- cd -> cambia de directorio servidor
+- lcd -> cambia directorio **LOCAL**
+(Para ejecutar comando en cliente se añade " ! ", en el caso de " cd ", se hace " lcd ")
+- get -> trae un archivo (serv -> client)
+- put -> envía archivo (client -> serv)
+- mget/mput (si son más archivos)
+- mkd -> crea directorios
+- rmd -> borra directorios
+- dele -> borra archivos
+- asc -> modo de transmisión ASCII
+- bin -> modo de transmisión de Binarios
+- port -> especifica el puerto al que conectarse el servidor
+- quit -> desconecta
 
 **Códigos de Respuesta**
  - **2yz**: Respuesta con éxito.
@@ -81,45 +96,8 @@ Binbows: IIS, filezilla server, serv-u
 
 
 
-
-
 ---
 **En Pasivo**:
  Se puede comprobar si el puerto de datos proviene de la misma conexión que control (IP Tables).
 
  Es mejor que dejar todos los puertos abiertos
-
----
-**Comandos**
-
-mkd dir3 -> crea directorio en servidor
-
-!mkd dir3 -> crea directorio en cliente
-
-cd -> cambia de directorio servidor
-
-lcd -> cambia directorio **LOCAL**
-
-(Para ejecutar comando en cliente se añade " ! ", en el caso de " cd ", se hace " lcd ")
-
-
-get -> trae un archivo (serv -> client)
-
-put -> envía archivo (client -> serv)
-
-mget/mput (si son más archivos)
-
-mkd
-
-rmd
-
-dele
-
-asc
-
-bin
-
----
-FTPS:
- - Explícito FTPES: se conecta,  indica al cliente que use SSL, si el cliente no es capaz, transmite sin SSL.
- - Implícito FTPS: si el cliente no soporta SSL, se acaba , escucha por TCP 990. (Está claro que es cifrado, debe saberse, si el cliente no es capaz usar cifrado, se desconecta).

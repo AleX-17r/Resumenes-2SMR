@@ -22,10 +22,14 @@ Puede funcionar en modo activo o modo pasivo, esto determinará como establecer 
 
 **En el modo activo**
  - El cliente indica que desea una conexión de **datos**, le indica un puerto y dirección IP. (comando PORT)
- - El servidor se conecta al cliente y establece la conexión de datos. 
+ - El servidor abre un puerto aleatorio y se lo indica al cliente.
+ - (el **servidor** abre la conexión de datos)
+
 **En el modo pasivo**
  - El cliente solicita una conexión de datos pasiva, (PASV)
- - El servidor abre un puerto aleatorio y se lo indica al cliente.
+ - El cliente indica qué puerto quiere usar
+ - El servidor se conecta al cliente y establece la conexión de datos. 
+ - (es el **cliente** el que abre la conexión de datos)
 
 **El servidor responde a la conexión** con un estado de 3 dígitos de carácteres Ascii ("200", "200 OK"), indicando que se ha conectado con éxito.
 (Los números representan el código de respuesta, el texto opcional, es legible por humanos).
@@ -79,6 +83,7 @@ Dado que FTP por defecto **no** es seguro, surgieron diferentes versiones en las
 - bin -> modo de transmisión de Binarios
 - port -> especifica el puerto al que conectarse el servidor
 - quit -> desconecta
+- pwd -> muestra directorio actual
 
 **Códigos de Respuesta**
  - **2yz**: Respuesta con éxito.
@@ -94,10 +99,11 @@ Dado que FTP por defecto **no** es seguro, surgieron diferentes versiones en las
 Linux: vsftpd, ==proftpd==, pure-ftpd, wu-ftpd
 Binbows: IIS, filezilla server, serv-u
 
-
-
 ---
-**En Pasivo**:
- Se puede comprobar si el puerto de datos proviene de la misma conexión que control (IP Tables).
+FTPS:
+ - Explícito FTPES: se conecta,  indica al cliente que use SSL, si el cliente no es capaz, transmite sin SSL.
+ - Implícito FTPS: si el cliente no soporta SSL, se acaba , escucha por TCP 990. (Está claro que es cifrado, debe saberse, si el cliente no es capaz usar cifrado, se desconecta).
+ ---
+ 
 
- Es mejor que dejar todos los puertos abiertos
+La resposta correcta és: La diferencia de FTP activo y pasivo es que en el activo el servidor es quien abre la conexión de datos, mientras que en el pasivo es el cliente quien abre la conexión de datos.

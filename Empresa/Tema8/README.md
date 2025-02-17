@@ -40,29 +40,13 @@ Se debe utilizar el critero de caja, se trata de determinar el flujo de dinero e
 Es un gasto producido por la depreciación u obsolescencia.
 Cada año se amortiza parte del bien, de forma que pasados unos años sirva para reponer el bien (un ordenador, se amortiza para en unos años cambiarlo).
 
+Cuota de amortización = (valor adquisición - valor residual)/Años vida útil
 
 ---
-
-**Ingreso**: venta
-**Cobro**: recibir el dinero
-
----
-**Criterio de caja**: movimientos de entrada y salida de dinero
-**Momento del cobro** (entrada) y de pago (salida)
-**cobros y pagos de explotación**: lo que hacen verdaderamente en la empresa
-**inversión**: dinero por bienes materiales e inmateriales. (puede ser el local) ayuda a la empresa, pero **no es producto**.
-**Amortización**: 
-
----
-
-Activo Corriente: lo que vaya a estar **menos** de un año
-Activo No Corriente: lo que vaya a estar **más** de un año
-
----
-Activo: Plan de Producción
-Pasivo: Plan de Financiación
 ### Balance
 El activo tiene que pesar lo mismo que el pasivo + el patriomonio neto
+**Activo**: bienes y derechos de cobro
+**Pasivo**: obligaciones de pago
 
 **Activo**: lo que vale todo lo que es nuestro
 - **Activos no corrientes (+1año)**
@@ -75,7 +59,7 @@ El activo tiene que pesar lo mismo que el pasivo + el patriomonio neto
   - Disponible: ventas no cobradas, caja
   - Realizable: 
 
-**Pasivo** + P Neto: Valor de o que debemos
+**Pasivo** + P Neto: Valor de lo que debemos
 - **P Neto (no se devuelve)**
   - Subvenciones (?)
   - Reservas
@@ -85,6 +69,32 @@ El activo tiene que pesar lo mismo que el pasivo + el patriomonio neto
   - Leashing
 - **Pasv corriente (-1año)**
   - Pago proveedor aplazado
+
+---
+
+**Ingreso**: venta
+**Cobro**: recibir el dinero
+
+---
+**Criterio de caja**: movimientos de entrada y salida de dinero
+**Momento del cobro** (entrada) y de pago (salida)
+**cobros y pagos de explotación**: lo que hacen verdaderamente en la empresa
+**inversión**: dinero por bienes materiales e inmateriales. (puede ser el local) ayuda a la empresa, pero **no es producto**.
+
+---
+### Criterio de Devengo
+Los ingresos y los gastos se reconocen en el momento que se generan, independientemente de cuando se cobre o pague.
+Si se factura una cantidad de dinero, se registra en ese momento, aunque no se haya cobrado.
+
+---
+
+Activo Corriente: lo que vaya a estar **menos** de un año
+Activo No Corriente: lo que vaya a estar **más** de un año
+
+---
+Activo: Plan de Producción
+Pasivo: Plan de Financiación
+
 
 
 

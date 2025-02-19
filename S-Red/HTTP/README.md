@@ -115,8 +115,11 @@ En caso de no funcionar, cambiamos owner (chwon -R www-data:www-data /var/www/mi
 ---
 Además: 
 a2enmod ssl
-en ambos casos: -> SItes-enabled
+
+en ambos casos: -> Sites-enabled
+
 a2ensite www.hurtado.lan (como se llame el fichero)
+
 (Práctica optativa: hacer alguna cosa chula con los logs)
 
 
@@ -125,6 +128,7 @@ a2ensite www.hurtado.lan (como se llame el fichero)
 sites-available
 
 **apachectl**: herramienta de gestión de apache, recomendable utilizarla.
+
 Una autoridad certificadora puede delegar en otra (si una dice que es cierto, la tora también)
 
 

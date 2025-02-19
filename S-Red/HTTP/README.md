@@ -52,9 +52,13 @@ versión del protocolo: http 1.1
 código: 200OK
 
 **1xx**
+
 **2xx** (correcta) más común 200
+
 **3xx** (redirección; el usuario tiene que hacer más cosas) más común 301
+
 **4xx** (cabeceras); más común 404 (not found), 403 (forbidden)
+
 **5xx** (internal server error); más común 500
 
 

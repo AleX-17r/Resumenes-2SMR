@@ -1,4 +1,4 @@
-xapache2
+apache2
 host virtual en www.apellido.lan
 host virtual en otraweb.apellido.lan
 host virtual en miweb.apellido.lan
@@ -37,9 +37,13 @@ Keep-alive: mantener la búsqueda activa; yes/no
 Posibles peticiones al servidor web.
 
 **Get**: pegado a la URL (?, parámetro = a otro).
+
 **Post**: lo manda a través de cabeceras.
+
 **Put**: enviar recurso al servidor (generalmente **no** se puede hacer)
+
 **Delete**: borrar (generalmente **no** se puede hacer)
+
 **Head**: como Get, pero **sólo** quiere las cabeceras.
 
 ---

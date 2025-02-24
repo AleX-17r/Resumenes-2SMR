@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+<div class="Div2">
+    <div class="opcion">Inicio</div>
+    <div class="opcion">Quiénes Somos</div>
+    <div class="opcion">Contáctanos</div>
+    <div class="opcion">Más</div>
+</div>
+
+<h1 style="text-align:center">EcoElectro</h1>
+<h4 style="text-align:center">Por Alejandro H. y Lucas C.</h4>
+<h4 style="text-align:center">El Mañana Hoy</h4>
+<hr>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 7</div>
+    <img src="setup1.jpg" style="height:400px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 7</div>
+    <img src="setup2.jpg" style="height:400px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 7</div>
+    <img src="setup3.JPEG" style="height:400px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 7</div>
+    <img src="laptop.jpg" style="height:400px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 7</div>
+    <img src="laptop0.jpg" style="height:400px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 7</div>
+    <img src="laptops.jpg" style="height:400px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 7</div>
+    <img src="images/question.png" style="height:400px">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+  <hr>
+
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<h3>¿Qué hacemos?</h3>
+<p>En EcoElectro hacemos todo lo posible por alargar la vida útil de un dispositivo, ya sea con nuestro servicio de reparación, o con nuestra venta de reacondicionados.
+</p>
+<p>Somos conscientes de la contaminación por desechos tecnológicos y por la creación de nuevos, con nuestros servicios hacemos que se desechen menos, y a su vez que no tengan que crearse tantos nuevos.</p>
+
+<p>Ofrecemos reparaciones y venta de dispositivos reacondicionados, esto permite al usuario final continuar utilizando su dispositivo, o empezar a utilizar uno a un precio razonable.</p>
+<br>
+<h3>¿Por qué lo hacemos?</h3>
+<p>Nuestro objetivo es reducir los residuos tecnológicos y junto a esto, poder ofrecer a quien lo necesita un buen dispositivo a un precio que se pueda permitir.</p>
+<hr>
+
+
+
+
+
+</body>
+</html>
+		
